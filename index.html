@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.d {
+			background: red;
+			height: 900px;
+			width: 550px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.b {
+			background: red;
+			height: 900px;
+			width: 550px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+		}
+		.v {
+			background: red;
+			height: 900px;
+			width: 550px;
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+		}
+		.n {
+			background: blue;
+			height: 500px;
+			width: 550px;
+		}
+		.m {
+			background: green;
+			height: 116px;
+			width: 547px;
+			border:1px solid black;
+		}
+		.i {
+			background: green;
+			height: 50px;
+			width: 550px; 
+		}
+		.img1 {
+			height: 500px;
+			width: 550px;
+		}
+		.mi {
+			background: green;
+			height: 116px;
+			width: 547px;
+			border:1px solid black;
+		}
+		.img2 {
+			height: 500px;
+			width: 550px;
+		}
+	</style>
+</head>
+<body>
+<div class="d">
+	<div class="i">
+		<p>как его зовут?</p>
+	</div>
+	<div class="n">
+		<img src="1.webp" class="img1">
+	</div>
+	<div class="m">	
+	<p>Чхве Мён Хи</p>	
+	</div>
+	<div class="mi">
+	<p>Чан Чжон У</p>	
+	</div>
+	<div class="m">
+	<p>Винченцо</p>
+	</div>
+</div>
+<div class="b">
+	<div class="i"></div>
+	<div class="n">
+		<img src="2.jpg" class="img2">
+	</div>
+	<div class="m"></div>
+	<div class="m"></div>
+	<div class="m"></div>
+</div>
+<div class="v"></div>
+<script type="text/javascript">
+
+	let vopros1_prav = document.querySelector(".mi")
+	vopros1_prav.onclick = function(){
+		alert("прав")
+		vopros1.style.display = "none"
+		vopros2.style.display = "block"
+	}
+	let vopros1 = document.querySelector(".d")
+
+	let vopros2 = document.querySelector(".b")
+
+
+
+	
+</script>
+</body>
+</html>
